@@ -10,6 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     }
     html, body {
         font-family: 'Poppins', sans-serif;
+        background-color: #000;
+        color: white;
     }
 
     button {

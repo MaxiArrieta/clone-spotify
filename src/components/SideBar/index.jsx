@@ -70,9 +70,10 @@ const SideBar = () => {
 export default SideBar
 
 export const Container = styled.div`
+  grid-area: aside;
   background-color: #000;
   color: white;
-  height: 100vh;
+  height: 90vh;
   width: 289px;
   max-width: 394px;
 `

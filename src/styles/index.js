@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
 
     button {
         font-family: 'Poppins', sans-serif;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 700;
         letter-spacing: normal;
         line-height: 16px;

@@ -80,7 +80,7 @@ export const Container = styled.div`
 
 export const Logo = styled(LogoSpotify)`
   padding: 10px 10px 5px 20px;
-  width: 200px;
+  width: 180px;
   height: 120px;
 `
 

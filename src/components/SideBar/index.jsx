@@ -7,7 +7,7 @@ import LibraryBig from '../../assets/icons/Library-big.svg'
 import SearchBig from '../../assets/icons/Search-Big.svg'
 import Heart from '../../assets/icons/Heart.svg'
 import AddPlus from '../../assets/icons/Add-plus.svg'
-import { AppContext } from '../../context'
+import { AppContext } from '../../context/'
 
 const SideBar = () => {
   const { navState, handleSelected } = useContext(AppContext)

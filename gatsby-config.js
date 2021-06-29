@@ -3,7 +3,7 @@ module.exports = {
     title: 'Sputnikfy - Spotify Clone',
     description: 'Clone de Spotify by Maximiliano Arrieta',
     author: 'Maximiliano Arrieta <arrieta.maxi18@gmail.com>',
-    siteUrl: 'https://the-netflix.netlify.app/'
+    siteUrl: 'https://sputnikfy-clone.netlify.app/'
   },
   plugins: [
     'gatsby-plugin-styled-components',

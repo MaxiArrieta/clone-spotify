@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import styled from 'styled-components'
+import axios from 'axios'
 import ChevronLeft from '../../assets/icons/Chevron-left.svg'
 import ChevronRight from '../../assets/icons/Chevron-right.svg'
 import User from '../../assets/icons/User.svg'
@@ -8,6 +9,18 @@ import { AppContext } from '../../context'
 
 const Header = () => {
   const { navigation, goBack } = useContext(AppContext)
+
+  const handleClick = async () => {
+    const url = 'https://api.deezer.com/artist/27'
+
+    const req = await axios.get(url, {
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      mode: 'cors'
+    })
+    console.log(req)
+  }
   return (
     <Container>
       <div>
@@ -19,7 +32,7 @@ const Header = () => {
         </Button>
       </div>
       <div>
-        <button>
+        <button onClick={() => handleClick()}>
           Premium
         </button>
         <button>
